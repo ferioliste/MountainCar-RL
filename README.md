@@ -15,10 +15,10 @@ This project implements mainly two agents: Deep Q-Network (DQN) and Dyna.
 
 DQN agent uses a feed-forward neural network to approximate the Q-values structure in each state. The agent uses an $\epsilon$-greedy policy for action selection, balancing exploration and exploitation.\
 **Features:** Replay buffer, batch learning, and an epsilon decay schedule to reduce the exploration rate over time.\
-**Tested reward structures:**
-1. environment reward
-2. environment reward + heuristic reward (obtained as mechanic energy variation between consecutive states)
-3. environment reward + RND reward (obtained through Random Network Distillation [[Burda et al., 2018]](https://arxiv.org/pdf/1810.12894) to encourage exploration of less frequently encountered states, the advantage of this type of reward is that it is non domain-specific)
+**Tested reward structures:**\
+&emsp;1\. environment reward\
+&emsp;2\. environment reward + heuristic reward (obtained as mechanic energy variation between consecutive states)\
+&emsp;3\. environment reward + RND reward (obtained through Random Network Distillation [[Burda et al., 2018]](https://arxiv.org/pdf/1810.12894) to encourage exploration of less frequently encountered states, the advantage of this type of reward is that it is non domain-specific)
 
 Dyna agent uses a model-based reinforcement learning approach to create a model of the dynamics of the enviroment. The agent discretizes the state space and integrates real experiences with random updates to learn its policy.\
 **Features:** State discretization, transition probability modeling, and reward estimation for actions given the state.
