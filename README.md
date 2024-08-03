@@ -13,7 +13,7 @@ Check out the final report here: [`report_MountainCar_PaoloGiaretta_StefanoFerio
 ## Implemented agents
 This project implements mainly two agents: Deep Q-Network (DQN) and Dyna.
 
-DQN agent uses a feed-forward neural network to approximate the Q-values structure in each state. The agent uses an $\epsilon$-greedy policy for action selection, balancing exploration and exploitation.\
+DQN agent uses a feed-forward neural network to approximate the Q-values structure in each state. The agent uses an $\varepsilon$-greedy policy for action selection, balancing exploration and exploitation.\
 **Features:** Replay buffer, batch learning, and an epsilon decay schedule to reduce the exploration rate over time.\
 **Tested reward structures:**\
 &emsp;1\. environment reward\
