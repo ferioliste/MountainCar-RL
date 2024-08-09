@@ -6,6 +6,8 @@ The code was developed for the course "Artificial neural networks/reinforcement 
 
 Check out the final report here: [`report_MountainCar_PaoloGiaretta_StefanoFerioli.pdf`](./report_MountainCar_PaoloGiaretta_StefanoFerioli.pdf).
 
+Final grade: 5.75/6
+
 ## Authors
 - Stefano Ferioli ([@ferioliste](https://github.com/ferioliste))
 - Paolo Giaretta ([@GiarettaPaolo](https://github.com/GiarettaPaolo))
